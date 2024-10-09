@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://guvi-project-backend.onrender.com';
+const API_URL = 'https://guvi-project-backend-2.onrender.com';
 
 export const login = async (credentials) => {
     const response = await axios.post(`${API_URL}/login`, credentials);
